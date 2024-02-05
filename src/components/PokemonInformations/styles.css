@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1023px ) {
+    .Img{
+        width: 100%;
+        border: 1px solid #000;
+        border-radius: 0.5rem;
+        margin-right: 1rem;
+        background-color: white;
+        img{width: 100%;}
+    }
+}
+@media only screen and (min-width: 480px ) {
+    .Infos {
+        display: flex;
+        align-items: center;
+    }
+    .Img{
+        width: 50%;
+        border: 1px solid #000;
+        border-radius: 0.5rem;
+        margin-right: 1rem;
+        background-color: white;
+        img{width: 100%;}
+    }
+}
+
+.PokemonInformations{
+    background-color: #FFCB05;
+    border-radius: 0.5rem;
+    padding: 0.5rem;    
+}
+
+
+
+.Characteristics{
+    width: 100%;
+}
+
+.PokemonInformationsBody{
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+h2, h3, p{
+    margin: 0;
+}
+
+.PokemonType{
+    display: flex;
+    align-items: center;
+
+    h3 {
+        margin-right: 0.5rem;
+    }
+}

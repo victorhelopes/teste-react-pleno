@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1023px ) {
+    .HomeHeader{
+        padding: 1rem;
+    }
+    .HomeBody {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+}
+@media only screen and (min-width: 481px ) {
+    .HomeHeader{
+        padding: 2rem;
+    }
+    .HomeBody {
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+@media only screen and (min-width: 769px  ) {
+    .HomeHeader{
+        padding: 5rem;
+        
+    }
+    .HomeBody {
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+.PokemonList{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    .pokemonSelectable{
+        margin-bottom: 0.5rem;
+        cursor: pointer;
+    }
+}
+
+.PokemonInformation{
+    width: 100%;
+}

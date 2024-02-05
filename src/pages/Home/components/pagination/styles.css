@@ -1,0 +1,10 @@
+.ButtonsPagination{
+    margin: auto;
+
+    button{
+        background-color: #FFCB05;
+        border: 1px solid #fff;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+}
